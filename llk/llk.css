@@ -1,0 +1,121 @@
+.con {
+    background: #fff
+}
+
+#head {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#title {
+    height: 30px;
+}
+
+#score {
+    height: 30px;
+    line-height: 30px;
+}
+
+#score span,#score b {
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+#score input {
+    border: none;
+    background: #a74;
+    border-radius: 4px;
+    color: #eea;
+    padding: 5px 12px;
+    display: inline;
+    margin-right: 5px
+}
+
+#score select {
+    padding: 2px;
+    margin-right: 5px
+}
+
+.container {
+    margin: 0px auto;
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+
+#container {
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#container img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 9999;
+}
+
+#stop #container img {
+    display: none;
+}
+
+#container .on {
+    border: 1px solid red;
+    margin: -1px 0 0 -1px;
+    z-index: 9999;
+    border-radius: 6px;
+}
+
+#text {
+    margin: 5px auto;
+    width: 98%;
+    max-width: 480px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.show {
+    width: 96%;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    background: #eee;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 2%;
+    display: none;
+    z-index: 9999;
+}
+
+.show h3 {
+    line-height: 40px;
+}
+
+.show .btn {
+    border: none;
+    background: #f60;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 20px;
+    display: inline;
+    line-height: 30px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.shareTxt {
+    float: left;
+    padding-top: 5px;
+    margin-right: 10px;
+    color: red;
+    font-size: 18px
+}
