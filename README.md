@@ -30,3 +30,16 @@ git checkout -d branch_name
 
 git push origin :branch_name
 
+
+# 合并分支
+
+git pull 更新本地仓库至最新改动
+
+
+git merge branch_name
+
+git diff source_branch  traget_branch
+
+git add filename
+
+git push origin master
