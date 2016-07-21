@@ -1,5 +1,13 @@
 # yinduoglivy
 
+# 检查git版本
+
+which -a git 
+
+git --version
+
+
+
 git init 
 
 git clone 
