@@ -1,5 +1,30 @@
 # yinduoglivy
 
+
+# git 工作流程
+
+git 使用40个16进制字符SHA-1 Hash来唯一标识对象
+
+blob  文本文件 二进制文件
+
+tree  目录
+
+commit 历史提交
+
+tag   指向一个固定的历史提交
+
+tag -> commit ->(tree blob)
+
+
+工作区 (add)-> 暂存区 (commit)-> 历史记录 
+历史记录 (checkout) -> 工作区
+
+git status 
+
+git rm
+
+gitignore 
+
 # 检查git版本
 
 which -a git 
@@ -8,9 +33,9 @@ git --version
 
 
 
-git init 
+git init  初始化 仓库
 
-git clone 
+git clone  从远端仓库下载 
 
 git add <filename>  将文件添加到缓存区
 
