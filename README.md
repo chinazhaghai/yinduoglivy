@@ -19,6 +19,11 @@ git checkout -b branch_name
 git push origin branch_name
 
 
+# 切换分支
+
+git checkout branch_name
+
+
 # 删除分支
 
 git checkout -d branch_name
